@@ -19,7 +19,7 @@ h2{
 }
 
 .navbar{
-    background-color: #050e3c;
+    background-color: #ffffff;
 
     
 }
@@ -87,13 +87,29 @@ span{
 }
 
 header{
-    background-color: rgb(241, 240, 236) ;
+    width: 100%;
+    background-image: url(7.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    margin-bottom: 1%;
 }
 
-header img{
-    width: 100%;
-    height: 70vh;
-    text-shadow: gray 1px 1px 15px;
+.img-inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.img-inicio img{
+    background-color: rgba(17, 5, 44, 0.178);
+    border-radius: 50%;
+    text-align: center;
+    width: 25%;
+    height: 20vh;
+    backdrop-filter: blur(100px);
 }
 .carousel-inner{
     box-shadow: black 1px 1px 8px;
@@ -689,7 +705,7 @@ ul.service-list li i
 
 @media (min-width: 320px) and (max-width: 575px){
     .navbar{
-        background-color:   #01111a;
+        background-color:   #99abb6;
     }
     
     
@@ -701,7 +717,7 @@ ul.service-list li i
     
     .container-fluid .logo, h3{
         font-size: 1em;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         text-align: center;
     }
     
@@ -719,7 +735,7 @@ ul.service-list li i
         font-size: 0.8rem;
         line-height: 0.9;
         background-color: transparent;
-        border: 1px solid #e8ff1c ;
+        border: 1px solid #030303 ;
         border-radius: 0.25rem;
         transition: box-shadow .15s ease-in-out;
         
@@ -2702,31 +2718,17 @@ ul.service-list li i
 @media (min-width: 1200px) {
     
     .navbar{
-        background-color:  #01111a;
-        
-        
+        background-color:  #906d96;
+          
     }
     
     .container-fluid{
         display: flex;
-        justify-content: space-between;
-       background-color: transparent;
+        justify-content: center;
+        background-color: transparent;
         
     }
     
-    .container-fluid .logo, h3{
-        font-size: 1em;
-        color: rgb(255, 255, 255);
-        text-align: center;
-    }
-    
-    
-    
-    .container-fluid img{
-        width: 10vw;
-        height: 10vh;
-        
-    }
     
     .navbar-toggler {
         
@@ -2749,12 +2751,12 @@ ul.service-list li i
         margin: 1%;
     }
     .navbar-nav{
-        width: 40%;
+        width: 60%;
     
     }
     
     .navbar-nav .nav-item{
-        color: #f7d5ef;
+        color: #ffffff;
         font-weight: 900;
         font-size: 1em;
         font-family: 'Josefin Sans', sans-serif;
@@ -2771,14 +2773,36 @@ ul.service-list li i
     
     
     header{
-        background-color: rgb(251, 248, 242) ;
+        width: 100%;
+        background-image: url(./500.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-bottom: 1%;
     }
     
-    header img{
-        width: 100%;
-        height: 70vh;
-        text-shadow: gray 1px 1px 15px;
+    .img-inicio{
+        display: flex;
+        justify-content: center;
     }
+    
+    .img-inicio img{
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+        text-align: center;
+        width: 30%;
+        height: 52vh;
+        backdrop-filter: blur(100px);
+    }
+
+    .detalle-inicio h1, h2{
+        text-align: center;
+        padding-top: 1%;
+        color: rgb(255, 255, 255);
+    }
+
     .carousel-inner{
         box-shadow: #006B5E 1px 1px 8px;
         height: 70vh;
@@ -2908,7 +2932,7 @@ h5 {
 }
    /***********************************
 ************************************
-SERVICIOS
+            SERVICIOS
 ************************************
 ***********************************/
 .title, .service-title
@@ -3110,7 +3134,7 @@ ul.service-list li i
 }
     
     footer{
-        background-color:#8EDDC5
+        background-color:#8EDDC5;
         padding-top: 2%;
         box-shadow: #006B5E 1px 1px 12px;
     }
