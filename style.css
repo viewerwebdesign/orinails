@@ -31,7 +31,7 @@ h2{
 }
 
 .container-fluid .logo, h3{
-    font-size: 1em;
+    font-size: 2em;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -85,7 +85,7 @@ span{
 
 header{
     width: 100%;
-    background-image: url(7.png);
+    background-image: url(./12.jpg);;
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -101,7 +101,7 @@ header{
 }
 
 .img-inicio img{
-    background-color: rgba(17, 5, 44, 0.178);
+    background-color: rgba(8, 7, 67, 0.178);
     border-radius: 50%;
     text-align: center;
     width: 25%;
@@ -436,6 +436,14 @@ ul.service-list li i
     -moz-transform:rotateY(0);
     transform:rotateY(0)
 }
+.card-text:last-child {
+    margin-bottom: 0;
+    text-align:left;
+}.card{
+    background-color: rgb(240, 233, 239);
+    box-shadow: 1px 1px 10px rgb(228, 231, 229);
+    color: #020c19;
+}
 
 footer{
     background-color: rgb(131, 235, 218);
@@ -702,11 +710,11 @@ ul.service-list li i
 
 @media (min-width: 320px) and (max-width: 575px){
     .navbar{
-        background-color:   #9a7da8;
+        background-color:   #0a023f;
     }
     header{
         width: 100%;
-        background-image: url(./500.png);
+        background-image:url(./12.jpg);;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -721,7 +729,7 @@ ul.service-list li i
     }
     
     .img-inicio img{
-        background-color: rgba(0, 0, 0, 0.137);
+        background-color:  rgba(8, 7, 67, 0.178);
         border-radius: 50%;
         text-align: center;
         width: 25%;
@@ -733,8 +741,9 @@ ul.service-list li i
         text-align: center;
         padding-top: 1%;
         color: rgb(255, 255, 255);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: #0f0f0f 5px 5px 5px 5px;
     }
-
     
     .container-fluid{
         display: flex;
@@ -910,7 +919,7 @@ h2{
 
 h5 {
     font-size: 1.25rem;
-    color: white;
+    color: rgb(2, 6, 48);
 }
     /***********************************
 ************************************
@@ -1176,7 +1185,7 @@ ul.service-list li i
 
     header{
         width: 100%;
-        background-image: url(./500.png);
+        background-image:url(./12.jpg);;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -1191,7 +1200,7 @@ ul.service-list li i
     }
     
     .img-inicio img{
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(8, 7, 67, 0.178);
         border-radius: 50%;
         text-align: center;
         width: 30%;
@@ -1203,8 +1212,9 @@ ul.service-list li i
         text-align: center;
         padding-top: 1%;
         color: rgb(255, 255, 255);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: #0f0f0f 5px 5px 5px 5px;
     }
-
     
     .container-fluid img{
         width: 40vw;
@@ -1599,7 +1609,7 @@ ul.service-list li i
 @media (min-width: 768px) and (max-width: 991px){
     header{
         width: 100%;
-        background-image: url(./500.png);
+        background-image: url(./12.jpg);;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -1614,7 +1624,7 @@ ul.service-list li i
     }
     
     .img-inicio img{
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(8, 7, 67, 0.178);
         border-radius: 50%;
         text-align: center;
         width: 30%;
@@ -1626,8 +1636,9 @@ ul.service-list li i
         text-align: center;
         padding-top: 1%;
         color: rgb(255, 255, 255);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: #0f0f0f 5px 5px 5px 5px;
     }
-
 
     .container-fluid img{
         width: 40vw;
@@ -1754,7 +1765,16 @@ h2{
 
     text-align: center;
 }
-
+h3 .h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;  
+    color:midnightblue;
+    font-weight: 900;
+    font-size: 1.8;
+    text-align: center;
+    margin-top: 5% ;
+    margin-bottom: 5%;
+}
 h5 {
     font-size: 1.25rem;
     color: white;
@@ -2022,7 +2042,7 @@ ul.service-list li i
 
     header{
         width: 100%;
-        background-image: url(./500.png);
+        background-image: url(./12.png);;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -2037,18 +2057,19 @@ ul.service-list li i
     }
     
     .img-inicio img{
-        background-color: rgb(0, 0, 0);
+        background-color:  rgba(8, 7, 67, 0.178);
         border-radius: 50%;
         text-align: center;
         width: 30%;
         height: 52vh;
         backdrop-filter: blur(100px);
     }
-
     .detalle-inicio h1, h2{
         text-align: center;
         padding-top: 1%;
         color: rgb(255, 255, 255);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: #0f0f0f 5px 5px 5px 5px;
     }
 
 
@@ -2175,7 +2196,7 @@ h2{
     font-family: 'Josefin Sans', sans-serif;  
     font-weight: 900;
     font-size: 1.5;
-
+    color:midnightblue;
     text-align: center;
 }
 
@@ -2446,7 +2467,7 @@ ul.service-list li i
 
     header{
         width: 100%;
-        background-image: url(./500.png);
+        background-image: url(./12.jpg);;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -2461,7 +2482,7 @@ ul.service-list li i
     }
     
     .img-inicio img{
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(8, 7, 67, 0.178);
         border-radius: 50%;
         text-align: center;
         width: 30%;
@@ -2473,8 +2494,9 @@ ul.service-list li i
         text-align: center;
         padding-top: 1%;
         color: rgb(255, 255, 255);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: #0f0f0f 5px 5px 5px 5px;
     }
-
     
     .container-fluid img{
         width: 40vw;
@@ -2509,7 +2531,7 @@ ul.service-list li i
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #db7fc7;
+    background: #e895bf;
     align-items: center;
     justify-content: center;
     opacity: 0;
@@ -2593,7 +2615,7 @@ ul.service-list li i
     height: 8vh;
 } 
 
-h2{
+h2{ color:midnightblue;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;  
     font-weight: 900;
@@ -2808,7 +2830,16 @@ ul.service-list li i
     -moz-transform:rotateY(0);
     transform:rotateY(0)
 }
-    
+h3 .h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;  
+    color:midnightblue;
+    font-weight: 900;
+    font-size: 1.8;
+    text-align: center;
+    margin-top: 5% ;
+    margin-bottom: 5%;
+}   
     footer{
         background-color: #C4FCF0;
         padding-top: 2%;
@@ -2873,7 +2904,7 @@ ul.service-list li i
 @media (min-width: 1200px) {
     
     .navbar{
-        background-color:  #906d96;
+        background-color:  #0a023f;
           
     }
     
@@ -2906,7 +2937,7 @@ ul.service-list li i
         margin: 1%;
     }
     .navbar-nav{
-        width: 60%;
+        width: 61.5%;
     
     }
     
@@ -2918,7 +2949,7 @@ ul.service-list li i
     }
     
     .navbar-expand-lg .navbar-nav .nav-link:hover {
-        color: #006B5E;
+        color: #e788bb;
     }
 
     .collapse{
@@ -2929,7 +2960,7 @@ ul.service-list li i
     
     header{
         width: 100%;
-        background-image: url(./500.png);
+        background-image: url(./12.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -2944,7 +2975,7 @@ ul.service-list li i
     }
     
     .img-inicio img{
-        background-color: rgb(0, 0, 0);
+        background-color:   rgba(8, 7, 67, 0.178);
         border-radius: 50%;
         text-align: center;
         width: 30%;
@@ -2956,6 +2987,8 @@ ul.service-list li i
         text-align: center;
         padding-top: 1%;
         color: rgb(255, 255, 255);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: #0f0f0f 5px 5px 5px 5px;
     }
 
     .carousel-inner{
@@ -2969,7 +3002,15 @@ ul.service-list li i
     }
     /*CARDS CON IMAGEN GRANDE*/  
 
-
+    .card {
+        background-color: rgb(240, 233, 239);
+        box-shadow: 1px 1px 10px rgb(228, 231, 229);
+        color: #020c19;
+    }
+    .card-text .p {
+        text-align: center;
+    }
+    
 #portfolio .portfolio-item {
     max-width: 22rem;
     margin-left: auto;
@@ -2988,7 +3029,7 @@ ul.service-list li i
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #db7fc7;
+    background:#db9cb6;
     align-items: center;
     justify-content: center;
     opacity: 0;
@@ -3077,13 +3118,32 @@ h2{
     font-family: 'Josefin Sans', sans-serif;  
     font-weight: 900;
     font-size: 1.5;
-
+   
     text-align: center;
 }
+h3 {
+    text-align: center;
+      
+    color:midnightblue;
+    font-weight: 900;
+    font-size: 1.8;
+    text-align: center;
+    margin-top: 5% ;
+    margin-bottom: 5%;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: #eff0ed 5px 5px 5px 5px;
+}
 
-h5 {
-    font-size: 1.25rem;
-    color: white;
+
+h5 {margin-top: 5% ;
+    margin-bottom: 5%;
+    font-weight: 900;
+    font-size: 1.8;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(1, 2, 20);
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: #eff0ed 5px 5px 5px 5px;
 }
    /***********************************
 ************************************
@@ -3289,15 +3349,21 @@ ul.service-list li i
 }
 
 .card{
-    background-color: rgb(54, 41, 51);
-    box-shadow: 1px 1px 10px rgb(134, 231, 186);
-    color: #ffffff;
+    background-color: rgb(240, 233, 239);
+    box-shadow: 1px 1px 10px rgb(228, 231, 229);
+    color: #020c19;
 }
-    
+.card-body .text-center{
+    text-align:end;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    text-align:left;
+}
     footer{
         background-color:#8EDDC5;
         padding-top: 2%;
-        box-shadow: #006B5E 1px 1px 12px;
+        box-shadow: #dcdede 1px 1px 12px;
     }
 
     
@@ -3315,8 +3381,8 @@ ul.service-list li i
     
     footer  a, h6{
         text-decoration: none;
-        color:  rgb(70, 9, 76);
-        text-shadow: 0px 0px 15px rgb(128, 133, 63);
+        color:  rgb(15, 14, 15);
+        text-shadow: 0px 0px 15px rgb(218, 214, 217);
     
     
     }
@@ -3347,7 +3413,7 @@ ul.service-list li i
     }
     .desarrollado{
         text-align: center;
-        background-color: rgb(50, 80, 80);
+        background-color: rgb(2, 2, 25);
     }
     .desarrollado a{
         color: white;
