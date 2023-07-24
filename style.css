@@ -85,7 +85,7 @@ span{
 
 header{
     width: 100%;
-    background-image: url(./12.jpg);;
+    background-image: url(./12.png);;
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -233,6 +233,7 @@ h2{
 h5 {
     font-size: 1.25rem;
     color: white;
+    margin-top: 15px;
 }
 /***********************************
 ************************************
@@ -714,7 +715,7 @@ ul.service-list li i
     }
     header{
         width: 100%;
-        background-image:url(./12.jpg);;
+        background-image:url(./12.png);;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -913,7 +914,7 @@ h2{
     font-family: 'Josefin Sans', sans-serif;  
     font-weight: 900;
     font-size: 1.5;
-
+color:#0f0f0f;
     text-align: center;
 }
 
@@ -1185,7 +1186,7 @@ ul.service-list li i
 
     header{
         width: 100%;
-        background-image:url(./12.jpg);;
+        background-image:url(./12.png);;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -1609,7 +1610,7 @@ ul.service-list li i
 @media (min-width: 768px) and (max-width: 991px){
     header{
         width: 100%;
-        background-image: url(./12.jpg);;
+        background-image: url(./12.png);;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -2467,7 +2468,7 @@ ul.service-list li i
 
     header{
         width: 100%;
-        background-image: url(./12.jpg);;
+        background-image: url(./12.png);;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -2960,7 +2961,7 @@ h3 .h2{
     
     header{
         width: 100%;
-        background-image: url(./12.jpg);
+        background-image: url(./12.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -3118,7 +3119,7 @@ h2{
     font-family: 'Josefin Sans', sans-serif;  
     font-weight: 900;
     font-size: 1.5;
-   
+    color:#0f0f0f;
     text-align: center;
 }
 h3 {
