@@ -471,7 +471,7 @@ footer  a, h6{
 
 }
 footer a:hover{
-    color: gray;
+    color:rgb(232, 144, 144);
 }
 
 
@@ -788,7 +788,7 @@ ul.service-list li i
     
     }
     .navbar-expand-lg .navbar-nav .nav-link:hover {
-        color: #006B5E;
+        color:  #FFC6C3;
     }
     
     .navbar-nav .nav-item{
@@ -1148,7 +1148,7 @@ ul.service-list li i
     
     }
     footer a:hover{
-        color: gray;
+        color: rgb(232, 144, 144);
     }
     
     
@@ -1573,7 +1573,7 @@ ul.service-list li i
     
     }
     footer a:hover{
-        color: gray;
+        color: rgb(232, 144, 144);
     }
     
     
@@ -2006,7 +2006,7 @@ ul.service-list li i
     
     }
     footer a:hover{
-        color: gray;
+        color: rgb(232, 144, 144);
     }
     
     
@@ -2431,7 +2431,7 @@ ul.service-list li i
     
     }
     footer a:hover{
-        color: gray;
+        color:rgb(232, 144, 144);
     }
     
     
@@ -2864,7 +2864,7 @@ h3 .h2{
     
     }
     footer a:hover{
-        color: gray;
+        color: rgb(232, 144, 144);
     }
     
     
@@ -2950,7 +2950,7 @@ h3 .h2{
     }
     
     .navbar-expand-lg .navbar-nav .nav-link:hover {
-        color: #e788bb;
+        color: #FFC6C3;
     }
 
     .collapse{
